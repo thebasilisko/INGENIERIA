@@ -16,13 +16,14 @@ public class PlayerMotor : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         isGrounded = controller.isGrounded;
+
     }
 
     //Recibir inputs del InputManager.cs y lo aplica a los controles del personaje
