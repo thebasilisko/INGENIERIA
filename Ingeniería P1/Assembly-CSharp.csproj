@@ -59,18 +59,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FlashLight.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\PowerUpConfiguration.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\PowerUpFactory.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\SnowPool.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\PowerUpConfiguration.cs" />
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\MinimapCamera.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\SpeedPowerUp.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\PowerUp.cs" />
     <Compile Include="Assets\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\PowerUpSpawner.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\SpeedPowerUp.cs" />
     <Compile Include="Assets\Scripts\WinCondition.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\PowerUpSpawner.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\DrunkPowerUp.cs" />
     <Compile Include="Assets\Scripts\PlayerLook.cs" />
-    <Compile Include="Assets\Scripts\Object Pool\DrunkPowerUp.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Factory\PowerUpFactory.cs" />
+    <Compile Include="Assets\Scripts\Object Pool\Snow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
