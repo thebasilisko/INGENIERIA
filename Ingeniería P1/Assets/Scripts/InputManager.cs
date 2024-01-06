@@ -19,10 +19,14 @@ public class InputManager : MonoBehaviour
         onFoot = playerInput.OnFoot;
 
         motor = GetComponent<PlayerMotor>();
-        look =GetComponent<PlayerLook>();
+        look = GetComponent<PlayerLook>();
 
         onFoot.Jump.performed += ctx => motor.Jump(); //Cada vez que la acción Jump suceda se llama a la acción jump del motor
-    }
+
+        //GameObject snow = SnowPool.Instance.RequestSnow();
+
+    } 
+
 
     // Update is called once per frame
     void FixedUpdate()
@@ -32,6 +36,7 @@ public class InputManager : MonoBehaviour
 
         
     }
+
     private void LateUpdate()
     {
         look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
