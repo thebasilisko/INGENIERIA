@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8158153212838057115}
   - component: {fileID: 442186329062480153}
   - component: {fileID: 1053467515394804909}
-  - component: {fileID: -3304515725580915956}
+  - component: {fileID: 2109114600214555463}
   m_Layer: 0
   m_Name: Snow
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.098225236, y: -0.09880364, z: 0.3925885}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.02, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snowSpeed: 1
---- !u!54 &-3304515725580915956
+--- !u!54 &2109114600214555463
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,7 +128,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613125810000254198}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.005
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
