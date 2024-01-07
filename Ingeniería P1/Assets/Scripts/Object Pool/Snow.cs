@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class Snow : MonoBehaviour
 {
-    [SerializeField] private float snowSpeed = 5f;
-    [SerializeField] private Rigidbody2D snowRb; 
-    // Start is called before the first frame update
-
-    private void OnEnable()
+    public float snowSpeed = 1f;
+    public void Start()
     {
-        snowRb.velocity = Vector2.up * snowSpeed;
-    }
+        float yForce = Random.Range(snowSpeed / 2f, snowSpeed);
 
-    // Update is called once per frame
-    private void OnCollisionEnter2D()
-    {
-        gameObject.SetActive(false);
+        Vector3 force= new Vector3(0,yForce, 0);
+
+        GetComponent<Rigidbody>().velocity = force;
     }
 }

@@ -23,7 +23,6 @@ public class InputManager : MonoBehaviour
 
         onFoot.Jump.performed += ctx => motor.Jump(); //Cada vez que la acción Jump suceda se llama a la acción jump del motor
 
-        //GameObject snow = SnowPool.Instance.RequestSnow();
 
     } 
 

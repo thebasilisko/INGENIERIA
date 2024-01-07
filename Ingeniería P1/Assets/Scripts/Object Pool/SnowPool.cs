@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +10,17 @@ public class SnowPool : MonoBehaviour
     //Singelton hace que tengamos una sola instancia de snow y nos permite acceder desde el InputManager
     private static SnowPool instance;
     public static SnowPool Instance { get { return instance; } }
+
+    private void Awake()
+    {
+        if (instance == null) {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {

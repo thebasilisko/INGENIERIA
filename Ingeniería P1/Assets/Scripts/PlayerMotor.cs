@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMotor : MonoBehaviour
 {
+    [SerializeField] private float snowOffset = 0.5f;
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool isGrounded;
@@ -23,7 +24,6 @@ public class PlayerMotor : MonoBehaviour
     void Update()
     {
         isGrounded = controller.isGrounded;
-
     }
 
     //Recibir inputs del InputManager.cs y lo aplica a los controles del personaje

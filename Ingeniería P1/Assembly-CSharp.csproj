@@ -63,10 +63,14 @@
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\MinimapCamera.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\IPooledObject.cs" />
     <Compile Include="Assets\Input\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\WinCondition.cs" />
     <Compile Include="Assets\Scripts\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\Object Pool\Snow.cs" />
+    <Compile Include="Assets\Scripts\CubeSpawner.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
