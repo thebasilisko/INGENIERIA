@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/Men\xFAPrincipal.unity"
-    guid: ab1415e8b6b07bf48bf1d6e29337501d
+    path: "Assets/Scenes/Men\xFA Principal.unity"
+    guid: 37b60eb063990fa4b98da7288b4011b3
+  - enabled: 1
+    path: "Assets/Scenes/Introducci\xF3n.unity"
+    guid: bd5d5b901d3d6c2429159f86ff5282a2
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 607d226e222673143ab2f578f8556359
+  - enabled: 0
+    path: "Assets/Scenes/Men\xFAPrincipal.unity"
+    guid: ab1415e8b6b07bf48bf1d6e29337501d
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: b811054ba451f0642abc6a387b256a77

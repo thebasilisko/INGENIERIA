@@ -360,6 +360,7 @@
 "Assets/Scripts/GestorMusica.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Laser.cs"
+"Assets/Scripts/MenuPausa.cs"
 "Assets/Scripts/MenúInicial.cs"
 "Assets/Scripts/MinimapCamera.cs"
 "Assets/Scripts/Object Pool/CubeSpawner.cs"
