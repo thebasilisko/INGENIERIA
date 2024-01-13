@@ -357,8 +357,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Input/PlayerInput.cs"
 "Assets/Scripts/FlashLight.cs"
+"Assets/Scripts/GestorMusica.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Laser.cs"
+"Assets/Scripts/MenúInicial.cs"
 "Assets/Scripts/MinimapCamera.cs"
 "Assets/Scripts/Object Pool/CubeSpawner.cs"
 "Assets/Scripts/Object Pool/IPooledObject.cs"
@@ -366,6 +368,7 @@
 "Assets/Scripts/Object Pool/Snow.cs"
 "Assets/Scripts/PlayerLook.cs"
 "Assets/Scripts/PlayerMotor.cs"
+"Assets/Scripts/ReproductorSonido.cs"
 "Assets/Scripts/WinCondition.cs"
 -langversion:9.0
 
