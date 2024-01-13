@@ -350,7 +350,7 @@ Transform:
   m_GameObject: {fileID: 15914825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.17729637, z: -0, w: 0.9841575}
-  m_LocalPosition: {x: -0.0043, y: 0.05, z: 0.0016}
+  m_LocalPosition: {x: -0.0043, y: 0.072, z: 0.0016}
   m_LocalScale: {x: 0.04940457, y: 0.04940457, z: 0.04940457}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -375,7 +375,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.36, y: 2.23, z: 1}
+  m_Size: {x: 0.68, y: 2.85, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &15914828
 SphereCollider:
@@ -396,7 +396,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.51
+  m_Radius: 3.14
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &28042531
 GameObject:
@@ -33572,6 +33572,13 @@ MonoBehaviour:
   - {fileID: 736147060}
   - {fileID: 1643667746}
   eyesTransform: {fileID: 78172829}
+  posX: 0
+  posZ: 0
+  auxPosX: 0
+  auxPosZ: 0
+  contador: 0
+  segundoActual: 0
+  segundoAux: 0
 --- !u!1 &759330057
 GameObject:
   m_ObjectHideFlags: 0
@@ -113878,6 +113885,13 @@ MonoBehaviour:
   - {fileID: 938304965}
   - {fileID: 954978470}
   eyesTransform: {fileID: 15914826}
+  posX: 0
+  posZ: 0
+  auxPosX: 0
+  auxPosZ: 0
+  contador: 0
+  segundoActual: 0
+  segundoAux: 0
 --- !u!4 &1727230010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 49141c66df73f9646bdae2bd0a68a713, type: 3}

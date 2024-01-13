@@ -10,7 +10,7 @@ namespace Patterns.State.States
 
         private float rotationSpeed;
         private float chaseSpeed;
-        
+
         public ChasingPlayer(ISnowMan snowMan) : base(snowMan)
         {
         }

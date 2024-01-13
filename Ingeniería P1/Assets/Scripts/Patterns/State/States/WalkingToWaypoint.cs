@@ -16,6 +16,9 @@ namespace Patterns.State.States
         private float secondsToSeek = 1f;
         private float lastSeek = 0f;
 
+        public float time = 0f;
+        private const float maxTime = 10;
+
         public override void Enter()
         {
             currentTransform = snowMan.GetGameObject().transform;
@@ -29,6 +32,7 @@ namespace Patterns.State.States
 
         public WalkingToWaypoint(ISnowMan snowMan) : base(snowMan)
         {
+
         }
 
         public override void Exit()
@@ -39,12 +43,20 @@ namespace Patterns.State.States
         public override void Update()
         {
             lastSeek += Time.deltaTime;
-            
+            time += Time.deltaTime;
+
             if (lastSeek >= secondsToSeek)
             {
                 snowMan.SetState(new SearchingForPlayer(snowMan));
                 lastSeek = 0f;
                 Debug.Log("Seeking for enemy");
+            }
+
+            if (time > maxTime)
+            {
+                Debug.Log("");
+                snowMan.SetState(new SearchingForWaypoint(snowMan));
+                time = 0;
             }
             
         }

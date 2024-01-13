@@ -15,7 +15,7 @@ C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56415
+57729
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
 C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17508] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 2043708624 [EditorId] 2043708624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16708] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 1477855012 [EditorId] 1477855012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17508] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 2043708624 [EditorId] 2043708624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16708] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 1477855012 [EditorId] 1477855012 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path D:/UNITY/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/UNITY/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UNITY/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UNITY/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNITY/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UNITY/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005519 seconds.
-- Loaded All Assemblies, in  0.365 seconds
+Registered in 0.005032 seconds.
+- Loaded All Assemblies, in  0.342 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.253 seconds
-Domain Reload Profiling: 618ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 585ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (118ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (253ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (243ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (193ms)
+		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,190 +117,5 @@ Domain Reload Profiling: 618ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.626 seconds
-Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1195ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (184ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (150ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (571ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (29.6 KB). Loaded Objects now: 3972.
-Memory consumption went from 141.7 MB to 141.7 MB.
-Total: 3.355800 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.773400 ms  DeleteObjects: 0.071600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 104304.383686 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Bedside_Lamp.prefab
-  artifactKey: Guid(b4efa8f8fa0545f47b21910033875021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Bedside_Lamp.prefab using Guid(b4efa8f8fa0545f47b21910033875021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c08b39631bd1769e94ac2c6bbd01be') in 0.115995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Candy_Cane.prefab
-  artifactKey: Guid(017b8446764d3a840b0ca02d15201294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Candy_Cane.prefab using Guid(017b8446764d3a840b0ca02d15201294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fda07f8aa3ebf418e37c2083ff044b7') in 0.012289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Gingerbread.prefab
-  artifactKey: Guid(0dbed18940c65fb4f9d8b60721158ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Gingerbread.prefab using Guid(0dbed18940c65fb4f9d8b60721158ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f7562709d32bf58906c4f971c4c2cd') in 0.011196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Socks.prefab
-  artifactKey: Guid(e9f8371a79efcfc459039529b9a20ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Socks.prefab using Guid(e9f8371a79efcfc459039529b9a20ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbbc95d29cee4c236ffb6eb3b51a988') in 0.019707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Frame_2.prefab
-  artifactKey: Guid(b1496b309580b9b4d822b1130671281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Frame_2.prefab using Guid(b1496b309580b9b4d822b1130671281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259990fce656abe89329b4141e3f81b9') in 0.008279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Lights.prefab
-  artifactKey: Guid(b31201a66f5cad74eb0b268df378ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Lights.prefab using Guid(b31201a66f5cad74eb0b268df378ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e2b100e2d3abf02fb0bf6b6b7fdc12') in 0.007748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Prefabs/Gift_Box_2.prefab
-  artifactKey: Guid(2c69c93d45f9449488dbb88be91cd0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Prefabs/Gift_Box_2.prefab using Guid(2c69c93d45f9449488dbb88be91cd0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5624dcb949f0f186a782f0ec756df2c4') in 0.011598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.283412 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/candy_cane.fbx
-  artifactKey: Guid(9e000e1dd2a289f4fb3eaac3ce09c728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/candy_cane.fbx using Guid(9e000e1dd2a289f4fb3eaac3ce09c728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af5a4145c315fcf8a77d03e13b41b39') in 0.026210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/rope.fbx
-  artifactKey: Guid(79092e13b2498ed41a5e6230d9865b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/rope.fbx using Guid(79092e13b2498ed41a5e6230d9865b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dd57c0f6ec962faaae24f03c752bbc') in 0.013061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/frame.fbx
-  artifactKey: Guid(70d0fa3df44e0bc489445541437edc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/frame.fbx using Guid(70d0fa3df44e0bc489445541437edc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b830e98203f93920f2b858de943b7f3') in 0.010806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/santa_hat.fbx
-  artifactKey: Guid(a6f9626d1d3a4f9449167c75489512a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/santa_hat.fbx using Guid(a6f9626d1d3a4f9449167c75489512a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe5ad3b5d3be7129903d2c375e920f7') in 0.016173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/sock.fbx
-  artifactKey: Guid(4ff2608fbf3dcae438628973ce88c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/sock.fbx using Guid(4ff2608fbf3dcae438628973ce88c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d368a6451fdac3bbc1b6cbba0687e54') in 0.014385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/table_2.fbx
-  artifactKey: Guid(543aebfbb9a6d3f4d98496a6521d81d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/table_2.fbx using Guid(543aebfbb9a6d3f4d98496a6521d81d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f00ad628dc9966a1f09a6d51922648') in 0.011695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/gingerbread.fbx
-  artifactKey: Guid(2c6b92a54bdf4934f997146e14c266e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/gingerbread.fbx using Guid(2c6b92a54bdf4934f997146e14c266e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509993903d235bcba6dae7b231c069b8') in 0.014743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefavs/Minimalist Christmas/Models/fireplace.fbx
-  artifactKey: Guid(b85935726cea1a745b7993d0ccd45834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefavs/Minimalist Christmas/Models/fireplace.fbx using Guid(b85935726cea1a745b7993d0ccd45834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb24fa79bb1f9f77a3c5ae517e6e357') in 0.012973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
