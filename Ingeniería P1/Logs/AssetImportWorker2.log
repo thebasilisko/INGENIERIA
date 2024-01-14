@@ -1,0 +1,524 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60334
+Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
+C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19080] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 3972872015 [EditorId] 3972872015 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19080] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 3972872015 [EditorId] 3972872015 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DGNAOIQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path D:/UNITY/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/GitHub/INGENIERIA/IngenierÃ­a P1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4612
+Initialize mono
+Mono path[0] = 'D:/UNITY/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UNITY/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005006 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 547ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 1104ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.8 MB). Loaded Objects now: 3975.
+Memory consumption went from 145.1 MB to 144.3 MB.
+Total: 3.217700 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.542100 ms  DeleteObjects: 0.283000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 163834.959039 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree
+  artifactKey: Guid(8f585bf50b032934e8e129a1f690ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree using Guid(8f585bf50b032934e8e129a1f690ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffde671e4ebf03d48a79375239178892') in 0.002995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.375098 seconds.
+  path: Assets/Prefavs/Presents
+  artifactKey: Guid(d24633d0d4f93164e8ee9c2ac1ebd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/Presents using Guid(d24633d0d4f93164e8ee9c2ac1ebd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a36f929dc4b3b7c1207bf3034216f1') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.409791 seconds.
+  path: Assets/Prefavs/Minimalist Christmas
+  artifactKey: Guid(b9bcb37fbe220df4cb038a73f13de59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/Minimalist Christmas using Guid(b9bcb37fbe220df4cb038a73f13de59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2220cae3874ba5a58eeee7f4ec84a1be') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.030049 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials
+  artifactKey: Guid(353ba583e1ee2e9458ff4dd3f32f7080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials using Guid(353ba583e1ee2e9458ff4dd3f32f7080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa95bfa21cd176616d2415ed15ad0cbd') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.486628 seconds.
+  path: Assets/AnimatorController
+  artifactKey: Guid(699f23d8c82792e4a85c37d9b57c0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorController using Guid(699f23d8c82792e4a85c37d9b57c0edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8f15c1948ebfb9db90f9576bf56227') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101133 seconds.
+  path: Assets/AnimatorController/Snow_Man@Walking.fbx
+  artifactKey: Guid(49141c66df73f9646bdae2bd0a68a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorController/Snow_Man@Walking.fbx using Guid(49141c66df73f9646bdae2bd0a68a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de19ed2a10ae232a93aa11937927aa') in 0.209926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 13.291798 seconds.
+  path: Assets/!Materials Collection
+  artifactKey: Guid(13fe041f50b5c3248871314375b03462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Materials Collection using Guid(13fe041f50b5c3248871314375b03462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde24a2cf250a564ae669920eaa8c60') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.822644 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(1bb4920cf0c1b3f468ad0aa53605064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(1bb4920cf0c1b3f468ad0aa53605064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61f608f882823e8c43e94e22c248493') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.386494 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02484ac7434913ec99eefe4a1472c916') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.669872 seconds.
+  path: Assets/Prefavs/Materials/New Material.mat
+  artifactKey: Guid(14e68b1bb9c44874e84768098343899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/Materials/New Material.mat using Guid(14e68b1bb9c44874e84768098343899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838431a13ef83d8924514560c27cd4ed') in 0.006265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.894930 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/AgedDarkWood_URPShader.mat
+  artifactKey: Guid(fb6b7ccecbc0051419eb61f0e99f6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/AgedDarkWood_URPShader.mat using Guid(fb6b7ccecbc0051419eb61f0e99f6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba4a5be9e2af3ff1dc68fd701f798dc') in 0.052770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/BathroomTiles_URPShader.mat
+  artifactKey: Guid(c18631ac74d3d2b4488c87e429c5781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/BathroomTiles_URPShader.mat using Guid(c18631ac74d3d2b4488c87e429c5781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c94f217205b6b3f3a929bdb396c15') in 0.028558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/GrassGravel_URPShader.mat
+  artifactKey: Guid(39961ee0aa5ac2d41ac462b57c29b50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/GrassGravel_URPShader.mat using Guid(39961ee0aa5ac2d41ac462b57c29b50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3779bdbc68a90898475f112003c65eb3') in 0.016983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/WavySand_URPShader.mat
+  artifactKey: Guid(65680adb3acaf25498be652482606b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/WavySand_URPShader.mat using Guid(65680adb3acaf25498be652482606b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ad2a23180c585cfa00fa021472d76c') in 0.018456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/GrassClumps_URPShader.mat
+  artifactKey: Guid(69ade465236531b4ab4043c198517b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/GrassClumps_URPShader.mat using Guid(69ade465236531b4ab4043c198517b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8d9fc1c24cff8e8ec31e0adc4ed50e') in 0.018428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/SimpleRedBricks_URPShader.mat
+  artifactKey: Guid(ee19e7bdbd2923340aa8973e1d4230b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/SimpleRedBricks_URPShader.mat using Guid(ee19e7bdbd2923340aa8973e1d4230b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aded6e0ce7e270c2e21c919a08a2d26f') in 0.017373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/PlainWhiteFabric_URPShader.mat
+  artifactKey: Guid(cf3da56f55dc78845aa9ee532679ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/PlainWhiteFabric_URPShader.mat using Guid(cf3da56f55dc78845aa9ee532679ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0f9f04fdf457a86bab02665231d6dd') in 0.016983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/DesertCliffRock_URPShader.mat
+  artifactKey: Guid(1153a8a01726b4c468ed97bc6f71373e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/DesertCliffRock_URPShader.mat using Guid(1153a8a01726b4c468ed97bc6f71373e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e232ec2d75ce0ce726dd259e04583ec') in 0.019319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/URPMaterials/WoodenFlooring_URPShader.mat
+  artifactKey: Guid(74c7b8e3ed8d60740ad629198f468a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/URPMaterials/WoodenFlooring_URPShader.mat using Guid(74c7b8e3ed8d60740ad629198f468a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1637cb1b0583e33cc1ff6791ac4ca077') in 0.018052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.936251 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/BasketWeaveBricks_HDRPShader.mat
+  artifactKey: Guid(f0e9e2f8d5a8e6f4590b034daecaebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/BasketWeaveBricks_HDRPShader.mat using Guid(f0e9e2f8d5a8e6f4590b034daecaebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805d3df7412ff0c8d599aa8f6fdd96ec') in 0.039187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/PlainWhiteFabric_HDRPShader.mat
+  artifactKey: Guid(7635169c9966205499da267fe152e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/PlainWhiteFabric_HDRPShader.mat using Guid(7635169c9966205499da267fe152e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826bb8d45910f794af68ff3772e5ffff') in 0.020086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/DesertSandBrick_HDRPShader.mat
+  artifactKey: Guid(d46f207188fc34b4ab36c570b327e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/DesertSandBrick_HDRPShader.mat using Guid(d46f207188fc34b4ab36c570b327e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d8113a5dc66d65af56fa6aea1f02f') in 0.017441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/CoarseConcrete_HDRPShader.mat
+  artifactKey: Guid(6dd0d34f1e78f1c4c9cae3a364872546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/CoarseConcrete_HDRPShader.mat using Guid(6dd0d34f1e78f1c4c9cae3a364872546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cbd91df1457c35ab27a6e7942857bb') in 0.015413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/GrassClumps_HDRPShader.mat
+  artifactKey: Guid(ff4291a22556cce47be659c8586047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/GrassClumps_HDRPShader.mat using Guid(ff4291a22556cce47be659c8586047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8cb7379d6494b678277c620d53cab2') in 0.015980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/WavySand_HDRPShader.mat
+  artifactKey: Guid(2c17f54b0b03f5d43a3fbd60cf7fdd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/WavySand_HDRPShader.mat using Guid(2c17f54b0b03f5d43a3fbd60cf7fdd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a86647682b830412d32ae964a05541') in 0.018572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/HexBricks_HDRPShader.mat
+  artifactKey: Guid(d42b07e2f4723cb478482ae2c25091a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/HexBricks_HDRPShader.mat using Guid(d42b07e2f4723cb478482ae2c25091a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16448d09411088cd2ff7779904d927e8') in 0.019059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/SimpleRedBricks_HDRPShader.mat
+  artifactKey: Guid(c6d8285a1bf03fd43a1debc9db76ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/SimpleRedBricks_HDRPShader.mat using Guid(c6d8285a1bf03fd43a1debc9db76ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdc152eb12b79809f482cf457415728') in 0.016105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/RuinStoneBricks_HDRPShader.mat
+  artifactKey: Guid(1ab8a0f1e57106b4d9b4011874713586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/HDRPMaterials/RuinStoneBricks_HDRPShader.mat using Guid(1ab8a0f1e57106b4d9b4011874713586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdb89cc33ab0eefa1b0ddbb638b870') in 0.015481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.347950 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat
+  artifactKey: Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/AgedDarkWood_WMShader.mat using Guid(8f3bde3c129d6984c87270a14da9efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5001f4e36dda03d4084bafd955c655f5') in 0.054174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat
+  artifactKey: Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/CoarseConcrete_WMShader.mat using Guid(015da0f3dbeb55f4c82fb3d0587dcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05755cf8aaa9a968a649a4cf33dc1a86') in 0.017263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat
+  artifactKey: Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/DesertCliffRock_StandardShader.mat using Guid(ee2cbd091ade78d4d9ae2b3d259bc86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622cb6f7db82c8ab0fda216b8806319b') in 0.017957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_WMShader.mat
+  artifactKey: Guid(4318891aa1893e54b839de46698cfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_WMShader.mat using Guid(4318891aa1893e54b839de46698cfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae79ab2ad01d6400219c0e13a863982') in 0.018532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_StandardShader.mat
+  artifactKey: Guid(1fe720c95284ff24d8a9a2d5ef1b7c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/RuinStoneBricks_StandardShader.mat using Guid(1fe720c95284ff24d8a9a2d5ef1b7c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82607b9b503b3fcedf91f1686bb3fac8') in 0.014988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat
+  artifactKey: Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat using Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a1bbe55f216e9e2493ffd7cbd879ad') in 0.014871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_WMShader.mat
+  artifactKey: Guid(a293034410ea13649bd3df957b15f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_WMShader.mat using Guid(a293034410ea13649bd3df957b15f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db002149a9977a50bbb6b51e6b15512d') in 0.021388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_WMShader.mat
+  artifactKey: Guid(2d376d668dcec9045a4b0e642a7239d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/WoodenFlooring_WMShader.mat using Guid(2d376d668dcec9045a4b0e642a7239d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72eb09147552d04a2d7e17cb73e1ec92') in 0.015276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_WMShader.mat
+  artifactKey: Guid(b29ce08ad640aeb48acdb7b6d2abcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PebbledGravel_WMShader.mat using Guid(b29ce08ad640aeb48acdb7b6d2abcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02913384de375793db9350ec892060e2') in 0.015465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat
+  artifactKey: Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BrushedIron_StandardShader.mat using Guid(9af34721d62dd804da5c720b8325b5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e536bf4463e7769b0f12bced4a2b71') in 0.052991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_WMShader.mat
+  artifactKey: Guid(f90d452210f589b48b152b19c8c4f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/BathroomTiles_WMShader.mat using Guid(f90d452210f589b48b152b19c8c4f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc28b6b59b5265cddbda31022eeafbbb') in 0.016140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_StandardShader.mat
+  artifactKey: Guid(b516a6be52730f64e98b8928895f48b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/PlainWhiteFabric_StandardShader.mat using Guid(b516a6be52730f64e98b8928895f48b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77877e11216c30922b25cc6f1e3c334') in 0.014494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_WMShader.mat
+  artifactKey: Guid(8bbfa9999a12c1c4ba28eb1d7932bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/DesertSandBrick_WMShader.mat using Guid(8bbfa9999a12c1c4ba28eb1d7932bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be362b85e0494567a631170ae880faf') in 0.016441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_WMShader.mat
+  artifactKey: Guid(1b6c1d2396b618d429f058ad4102cf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefavs/WorldMaterialsFree/Built-In_RPMaterials/GrassGravel_WMShader.mat using Guid(1b6c1d2396b618d429f058ad4102cf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faeb7a7baf2af8b4374826ccc998c1f') in 0.016021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
