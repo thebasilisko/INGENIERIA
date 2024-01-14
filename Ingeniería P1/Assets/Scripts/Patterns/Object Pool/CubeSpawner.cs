@@ -12,6 +12,6 @@ public class CubeSpawner : MonoBehaviour
     }
     private void FixedUpdate()
     {
-       objectPooler.SpawnFromPool("Snow", transform.position, Quaternion.identity);
+       objectPooler.SpawnFromPool("Present", transform.position, Quaternion.identity);
     }
 }

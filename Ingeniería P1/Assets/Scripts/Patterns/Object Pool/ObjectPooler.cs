@@ -22,7 +22,7 @@ public class ObjectPooler : MonoBehaviour
         Instance = this;
     }
 
-    #endregion
+    #endregion// Singleton incompleto para poder instanciar los objetos desde el Spawner
 
     public List<Pool> pools; //Lista de objetos
     public Dictionary<string, Queue<GameObject>> poolDictionary; //Diccionario de objetos
